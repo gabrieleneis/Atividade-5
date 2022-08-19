@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(185, 75%, 39%);
+    font-family: "Kumbh Sans";
+}
+
+.total {
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.header img {
+    border-radius: 20px 20px 0px 0px;
+}
+
+.background {
+    position: fixed;
+    left: -300px;
+    top: -700px;
+    z-index: -4;
+}
+
+.background2 {
+    position: fixed;
+    bottom: -700px;
+    right: -300px;
+    z-index: -4;
+}
+
+.icon {
+    background-color: #fff;
+    padding: 5px;
+    margin-top: -25px;
+    margin-bottom: -5px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.id {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    height: 50px;
+}
+
+.nome {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.idade {
+    font-weight: 400;
+    font-size: 18px;
+    color: hsl(0, 0%, 59%);
+}
+
+.cidade {
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.cidade p {
+    margin: 0px;
+}
+
+.midia {
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 1px solid  hsl(0, 0%, 73%);
+    padding: 10px;
+}
+
+.col {
+    text-align: center;
+}
+
+.numero {
+    font-weight: 700;
+    font-size: 18px;
+    margin: 0px;
+}
+
+.onde {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+    font-size: 10px;
+}
+
+@media (max-width:425px) {
+    .background {
+        left: -600px;
+        top: 350px;
+    }
+
+    .background2 {
+        bottom: 350px;
+        right: -600px;
+    }
+}
